@@ -2,7 +2,7 @@
 
 GitHub username: nikitastrongest1
 Session code: zebra-28
-Fingerprint: 32b65508
+Fingerprint: 65cf1eaa
 
 > Fill in the three lines above from `my_data/DATA.md`. Do not rename headings or table columns: a script reads the numbers.
 > Write only in the empty cells and lines. Percentages as 0.78 or 78 %, money as plain numbers.
@@ -33,16 +33,16 @@ Fingerprint: 32b65508
 
 | candidate | annual cost |
 |---|---|
-| A, k=3 |$25,631.71|
-| A, k=5 |$34,775.34|
-| B, k=3 |$15,454.20|
-| B, k=5 |$17,812.83|
+| A, k=3 |$10,449.84|
+| A, k=5 |$13,688.10|
+| B, k=3 |$6,942.34|
+| B, k=5 |$7,842.26|
 
 ### 1d. Decision (at most 150 words)
 
 Chosen candidate: Candidate B with k = 5
 
-I choose Candidate B, k = 5. Its annual cost is $17,812.83, which is below the budget of $21,700. This means the bank can use this configuration and still have $3,887.17 left in the budget.
+I choose Candidate B, k = 5. Its annual cost is $7,842.26, which is below the budget of $9,100. This means the bank can use this configuration and still have $3,887.17 left in the budget.
 
 Candidate B with k = 5 has an overall recall of 83.33%. It performs better than the other options that fit the budget. Candidate B with k = 3 is cheaper, but its recall is only 60%. Candidate A with k = 3 and k = 5 has a higher cost, and both options exceed the budget.
 

@@ -88,13 +88,13 @@ Why (at most 40 words): The bill ratio differs from the token ratio because inpu
 
 ### Q2
 
-Number:
-Why (at most 40 words):
+Number: 460
+Why (at most 40 words): the question can retrieve this chunk because the sentence starts at token 460 and is shorter than 20 tokens, so it fits within the model's 512-token limit. No truncation error occurs.
 
 ### Q3
 
-Number:
-Why (at most 40 words):
+Number: 73.4%
+Why (at most 40 words): Top-p sampling filters out the least probable tokens until the total probability of the selected tokens reaches 0.95. After that, the probabilities of the remaining tokens are adjusted so that their sum equals 1. Reducing the temperature makes the probability distribution more concentrated, increasing the chance of selecting tokens with higher probabilities and making the output more predictable.
 
 ### Q4
 

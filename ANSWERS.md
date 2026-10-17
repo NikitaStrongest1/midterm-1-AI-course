@@ -69,6 +69,16 @@ Personal-data pages per year sent abroad under H:
 
 ### 2b. Memo (at most 300 words)
 
+I would choose Pipeline H for the bank's document processing.
+
+Pipeline H has an overall accuracy of 91.11%, while Pipeline L has 79.44%. H also has better results for difficult documents. Its weakest result is for degraded Russian documents, with 86.67% accuracy. For Pipeline L, the weakest result is for degraded Kazakh documents, with only 56.67% accuracy. This is important because mistakes when reading invoice numbers, dates, seller IDs, or totals can cause problems for the bank.
+
+However, Pipeline H costs more. Its annual cost is $21,385.35, compared with $10,800 for Pipeline L. By choosing L, the bank could save $10,585.35 per year, but it might also need to spend more time checking documents manually because of its lower accuracy.
+
+Data privacy is another important point. About 22% of the 3,000 daily pages contain a person's name and IIN. This means Pipeline H would send 240,900 pages with personal data abroad every year. This could create privacy concerns. Pipeline L processes documents on a server in Kazakhstan, assuming the data is not sent to external services, so it gives the bank more control over personal information.
+
+Overall, Pipeline H is more accurate, while Pipeline L is cheaper and better for keeping data in Kazakhstan. I would prefer H if accuracy is the main priority and the bank can manage the privacy risks. However, if keeping personal data in Kazakhstan is more important, L could be a better choice, but its accuracy should be improved first.
+
 ## Part 3: Explain your own numbers
 
 ### Q1

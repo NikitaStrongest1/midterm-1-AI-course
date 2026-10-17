@@ -98,10 +98,10 @@ Why (at most 40 words): Top-p sampling filters out the least probable tokens unt
 
 ### Q4
 
-Number:
-Why (at most 40 words):
+Number: 12
+Why (at most 40 words):The public leaderboard prefers Model X because it has 74 correct answers compared with Y's 72. This encourages models to answer even when uncertain, rather than admitting they do not know.
 
 ### Q5
 
-Number:
-Why (at most 40 words):
+Number: 18.70
+Why (at most 40 words): The model is over-trained by the Chinchilla compute-optimal ratio because it uses 18.7 times more tokens per parameter. Chinchilla argued that models such as GPT-3 were under-trained and that smaller models trained on more data could perform better.

@@ -62,8 +62,8 @@ I would test the retrieval system on a larger set of questions, especially in Ru
 
 | pipeline | overall accuracy | weakest cell (language, condition) | accuracy there | lower | upper | annual cost |
 |---|---|---|---|---|---|---|
-| H |91.11%|RU, degraded|86.67%|70.32%|94.69%| |
-| L |79.44%|KK, degraded|56.67%|39.20%|72.62%| |
+| H |91.11%|RU, degraded|86.67%|70.32%|94.69%|$21385.35|
+| L |79.44%|KK, degraded|56.67%|39.20%|72.62%|$10800|
 
 Personal-data pages per year sent abroad under H:
 

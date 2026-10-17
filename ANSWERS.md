@@ -33,10 +33,10 @@ Fingerprint: 32b65508
 
 | candidate | annual cost |
 |---|---|
-| A, k=3 | |
-| A, k=5 | |
-| B, k=3 | |
-| B, k=5 | |
+| A, k=3 |$25,631.71|
+| A, k=5 |$34,775.34|
+| B, k=3 |$15,454.20|
+| B, k=5 |$17,812.83|
 
 ### 1d. Decision (at most 150 words)
 

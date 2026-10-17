@@ -1,8 +1,8 @@
 # Midterm 1: answers
 
-GitHub username:
+GitHub username: nikitastrongest1
 Session code:
-Fingerprint:
+Fingerprint: 32b65508
 
 > Fill in the three lines above from `my_data/DATA.md`. Do not rename headings or table columns: a script reads the numbers.
 > Write only in the empty cells and lines. Percentages as 0.78 or 78 %, money as plain numbers.

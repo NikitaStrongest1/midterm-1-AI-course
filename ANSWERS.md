@@ -42,13 +42,15 @@ Fingerprint: 32b65508
 
 Chosen candidate: Candidate B with k = 5
 
-I choose Candidate B with k = 5 because it gives the best recall while staying within the budget. Its recall is 0.8333 (83.33%), which is the highest result among the four configurations. This means that it can find relevant documents for most of the test questions.
+I choose Candidate B, k = 5. Its annual cost is $17,812.83, which is below the budget of $21,700. This means the bank can use this configuration and still have $3,887.17 left in the budget.
 
-The 95% Wilson confidence interval is from 0.7197 to 0.9069. This shows that the recall estimate has some uncertainty, but the overall result is still promising.
+Candidate B with k = 5 has an overall recall of 83.33%. It performs better than the other options that fit the budget. Candidate B with k = 3 is cheaper, but its recall is only 60%. Candidate A with k = 3 and k = 5 has a higher cost, and both options exceed the budget.
 
-The annual cost of Candidate B with k = 5 is $17,812.83, which is below the budget of $21,700. This leaves $3,887.17 available. Candidate B with k = 3 is cheaper, costing $15,454.20, but its recall is only 60%. Candidate A with k = 3 and k = 5 has recall values of 68.33% and 76.67%, respectively, but both options exceed the budget.
+The 95% Wilson confidence interval for Candidate B with k = 5 is 71.97%–90.69%. This interval shows that the estimated recall has some uncertainty because it was measured on a limited test set. However, this candidate still offers a good balance between retrieval quality and cost.
 
-For these reasons, I think Candidate B with k = 5 is the best choice because it provides the highest recall among the options that fit the budget.
+The recall results for Candidate B with k = 5 are 75% for English, 70% for Russian, and 70% for Kazakh. English has the highest recall, while Russian and Kazakh have slightly lower results. The bank should monitor the performance for Russian and Kazakh questions and improve retrieval for these languages if needed.
+
+Overall, I would choose Candidate B with k = 5 because it provides the highest recall among the options within the budget while keeping some money available.
 
 ### 1e. Next measurement (at most 60 words)
 

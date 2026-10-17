@@ -54,6 +54,8 @@ Overall, I would choose Candidate B with k = 5 because it provides the highest r
 
 ### 1e. Next measurement (at most 60 words)
 
+I would test the retrieval system on a larger set of questions, especially in Russian and Kazakh, because their recall is lower than English. I would also compare the results on real bank documents to check whether Candidate B, k = 5 works well in practice and continues to fit the budget.
+
 ## Part 2: A document pipeline you can defend
 
 ### 2a. Numbers

@@ -40,9 +40,15 @@ Fingerprint: 32b65508
 
 ### 1d. Decision (at most 150 words)
 
-Chosen candidate:
+Chosen candidate: Candidate B with k = 5
 
-(Decision, using your intervals and the budget. Give the recall of your choice for EN, RU and KK separately.)
+I choose Candidate B with k = 5 because it gives the best recall while staying within the budget. Its recall is 0.8333 (83.33%), which is the highest result among the four configurations. This means that it can find relevant documents for most of the test questions.
+
+The 95% Wilson confidence interval is from 0.7197 to 0.9069. This shows that the recall estimate has some uncertainty, but the overall result is still promising.
+
+The annual cost of Candidate B with k = 5 is $17,812.83, which is below the budget of $21,700. This leaves $3,887.17 available. Candidate B with k = 3 is cheaper, costing $15,454.20, but its recall is only 60%. Candidate A with k = 3 and k = 5 has recall values of 68.33% and 76.67%, respectively, but both options exceed the budget.
+
+For these reasons, I think Candidate B with k = 5 is the best choice because it provides the highest recall among the options that fit the budget.
 
 ### 1e. Next measurement (at most 60 words)
 

@@ -83,8 +83,8 @@ Overall, Pipeline H is more accurate, while Pipeline L is cheaper and better for
 
 ### Q1
 
-Number:
-Why (at most 40 words):
+Number: 2.48
+Why (at most 40 words): The bill ratio differs from the token ratio because input and output tokens have different prices. Output tokens cost more, so the proportion of input and output tokens affects the final bill.
 
 ### Q2
 

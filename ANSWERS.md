@@ -1,7 +1,7 @@
 # Midterm 1: answers
 
 GitHub username: nikitastrongest1
-Session code:
+Session code: zebra-28
 Fingerprint: 32b65508
 
 > Fill in the three lines above from `my_data/DATA.md`. Do not rename headings or table columns: a script reads the numbers.
